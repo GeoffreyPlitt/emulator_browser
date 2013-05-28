@@ -1,0 +1,17 @@
+{
+  "name": "emulator_browser",
+  "scripts": {
+    "start" : "coffee -c app.coffee && node app.js"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "readmeFilename": "README.md",
+  "dependencies":
+    {
+    "xml2js": "*",
+    "glob": "*",
+    "mongojs": "*",
+    "request": "*",
+    "google-images": "*"
+    }
+}
